@@ -8,7 +8,7 @@ public class ReverseArray {
         int index=0;
         for(int i=arr.length - 1; i >= 0; i--){
             temp[index++] = arr[i];
-//            in
+
         }
 
         return temp;
