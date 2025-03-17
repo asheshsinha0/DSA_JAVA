@@ -5,3 +5,5 @@ For example
 1. array problems will be inside array directory
 2. Reversion problems will be inside recursion directory
 and so on...
+
+Author - Ashesh Kumar
