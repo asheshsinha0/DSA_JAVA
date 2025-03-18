@@ -2,6 +2,7 @@ package array;
 
 public class ReverseArray {
 
+    // Time complexity is --> O(n) and space complexity is O(n) with one extra space 
     public static int[] reversedArray(int[] arr){
 
         int[] temp = new int[arr.length];
