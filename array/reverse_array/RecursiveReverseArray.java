@@ -39,7 +39,7 @@ public class RecursiveReverseArray {
 
         int[] arr = {1,2,3,4,5,6};
 
-        System.out.print("Original arrays: ");
+        System.out.print("Original array: ");
         for(int i : arr){
             System.out.print(i+" ");
         }
@@ -47,7 +47,7 @@ public class RecursiveReverseArray {
 
         int[] newArr = revArray(arr,0,arr.length - 1);
 
-        System.out.print("\nReversed arrays: ");
+        System.out.print("\nReversed array: ");
         for(int i : newArr){
             System.out.print(i+" ");
         }
