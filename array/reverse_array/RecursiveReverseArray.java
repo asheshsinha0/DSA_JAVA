@@ -14,17 +14,36 @@ public class RecursiveReverseArray {
        arr[l] = arr[r];
        arr[r] = temp;
 
+
+//        System.out.print("arr is : ");
+//       for(int i : arr){
+//           System.out.print(i+" ");
+//       }
+//        System.out.println();
+
         return revArray(arr, l+1, r-1);
+
+//       ------------------------------------------------------------------
+ /*
+         Difference between this approach and above approach
+        int[] smallOutput = revArray(arr, l+1, r-1);
+        int temp = arr[l];
+        arr[l] = arr[r];
+        arr[r] = temp;
+
+        return smallOutput;
+ */
     }
 
     public static void main(String[] args) {
 
-        int[] arr = {3,4,1,9,5,8};
+        int[] arr = {1,2,3,4,5,6};
 
         System.out.print("Original arrays: ");
         for(int i : arr){
             System.out.print(i+" ");
         }
+        System.out.println();
 
         int[] newArr = revArray(arr,0,arr.length - 1);
 
