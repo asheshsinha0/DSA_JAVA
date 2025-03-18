@@ -2,9 +2,11 @@ package array;
 
 public class ReverseArray {
 
-    // Time complexity is --> O(n) and space complexity is O(n) with one extra space 
+    // 1. Naive Approach using temporary array
+    // Time complexity is --> O(n) and space complexity is O(n) 
     public static int[] reversedArray(int[] arr){
 
+	// extra space of size n is taken so auxiliary space is O(n)
         int[] temp = new int[arr.length];
         int index=0;
         for(int i=arr.length - 1; i >= 0; i--){
