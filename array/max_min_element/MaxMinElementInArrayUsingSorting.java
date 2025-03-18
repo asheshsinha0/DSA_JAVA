@@ -5,6 +5,7 @@ public class MaxMinElementInArrayUsingSorting {
     static int max;
     static int min;
 
+    // time complexity of this program is O(n2) and space complexity is O(1)
     public static void sortArray(int[] arr){
 
         int temp = 0;
